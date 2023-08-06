@@ -19,11 +19,8 @@
   },
   "plugins": ["react"],
   "rules": {
-    //react on scope disable
     "react/react-in-jsx-scope": "off",
-    //missing return type on function disable
     "@typescript-eslint/explicit-function-return-type": "off",
-    //space before function parenthesis enable
     "@typescript-eslint/space-before-function-paren": ["error", "never"]
   }
 }
