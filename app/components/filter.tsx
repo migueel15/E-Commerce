@@ -29,7 +29,7 @@ export default function FilterBar() {
   }
 
   return (
-    <div id="leftFilter" className="bg-blue-400 w-[20%]">
+    <div id="leftFilter" className="bg-blue-400 w-[15%]">
       <ul>
         <li>
           <label htmlFor={filter.min.id}>{filter.min.text}</label>
