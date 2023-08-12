@@ -2,6 +2,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { Providers } from "./provider"
+import FilterBar from "./components/filter"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -16,8 +17,26 @@ export default function RootLayout({
 }) {
   return (
     <html className="dark" lang="en">
-      <body className={inter.className}>
-        <Providers>{children}</Providers>
+      <body className="bg-[#2e3440]">
+        <header className="flex bg-[#2e3440] h-[3em] items-center justify-center">
+          <h1 className="p-2 m-auto">E-Commerce</h1>
+          <nav className="bg-red-600 m-auto">
+            <ul className="flex">
+              <li className="p-2">
+                <a href="/productos">Productos</a>
+              </li>
+              <li className="p-2">
+                <a href="/carrito">Carrito</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div className="flex w-[100%] min-h-[100vh]">
+          <FilterBar />
+          <div className="w-[80%]">
+            <Providers>{children}</Providers>F
+          </div>
+        </div>
       </body>
     </html>
   )
