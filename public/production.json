@@ -1,0 +1,294 @@
+{
+  "query": "*[_type == \"product\"]",
+  "result": [
+    {
+      "description": [
+        {
+          "_type": "block",
+          "style": "normal",
+          "_key": "8bfbb967d2f9",
+          "markDefs": [],
+          "children": [
+            {
+              "marks": [],
+              "text": "Descripcion del bañador",
+              "_key": "211d772fb5fb",
+              "_type": "span"
+            }
+          ]
+        }
+      ],
+      "title": "Bañador Originals",
+      "sizes": ["S", "M", "L"],
+      "_createdAt": "2023-08-10T20:57:59Z",
+      "_id": "27bac5b4-0010-40fd-b477-97e7aba4b972",
+      "slug": { "current": "banador-originals", "_type": "slug" },
+      "images": [
+        {
+          "_type": "image",
+          "_key": "62965915b66c",
+          "asset": {
+            "_ref": "image-34d805bd5aff03aa8fd52ac6331773d45bff20aa-800x933-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_type": "image",
+          "_key": "efb3321886ac",
+          "asset": {
+            "_ref": "image-2d435d6cbfde798f72a8839d68b6d473f25175e4-800x933-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_type": "image",
+          "_key": "36029c89955e",
+          "asset": {
+            "_ref": "image-32f61d2632a009d88138a1c5d765fa2b317f9579-800x933-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "_type": "product",
+      "discount": 10,
+      "price": 34.99,
+      "_updatedAt": "2023-08-12T16:51:02Z",
+      "gender": ["M"],
+      "_rev": "JMdf2V73JwHwmoofx8wtBP"
+    },
+    {
+      "_type": "product",
+      "title": "Camiseta OG 1974",
+      "price": 24.99,
+      "_id": "3c85ebfa-b99d-4230-9898-fce432e904a4",
+      "slug": { "current": "camiseta-og-1974", "_type": "slug" },
+      "_updatedAt": "2023-08-10T22:46:19Z",
+      "images": [
+        {
+          "_type": "image",
+          "_key": "ae5c6188829d",
+          "asset": {
+            "_ref": "image-98ae58cb076e822889b866860a21d3e8abb3d25a-800x933-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_type": "image",
+          "_key": "29df3163b2f4",
+          "asset": {
+            "_ref": "image-1a2cec9c849216c39917ee134609148fbd8e5cb4-800x933-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_type": "image",
+          "_key": "7716b6ac7630",
+          "asset": {
+            "_ref": "image-b79fedc67f7fef438cb91f8c7a81c287f76cba15-800x933-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "asset": {
+            "_ref": "image-4db20b0e9c4566d9266866096aae72b04224b40e-800x933-jpg",
+            "_type": "reference"
+          },
+          "_type": "image",
+          "_key": "6a2fb0236382"
+        }
+      ],
+      "gender": ["M", "F"],
+      "_rev": "5vk3qHqY3EPjD02jSfrAia",
+      "description": [
+        {
+          "_key": "57cb7c4eeb5c",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "marks": [],
+              "text": "Esta es la descripcion",
+              "_key": "0ebff42a6328"
+            }
+          ],
+          "_type": "block",
+          "style": "normal"
+        }
+      ],
+      "discount": 0,
+      "sizes": ["L", "XL", "XXL"],
+      "_createdAt": "2023-08-10T20:56:33Z"
+    },
+    {
+      "sizes": ["M", "L"],
+      "_rev": "egKJTqvXhtcduz2qdIZQPW",
+      "title": "Test2",
+      "slug": { "current": "test2", "_type": "slug" },
+      "_type": "product",
+      "discount": 0,
+      "_id": "4083f855-277f-47af-96ed-c6cbf4513a2a",
+      "_updatedAt": "2023-08-12T16:43:48Z",
+      "images": [
+        {
+          "_type": "image",
+          "_key": "952e947f7f93",
+          "asset": {
+            "_ref": "image-2d435d6cbfde798f72a8839d68b6d473f25175e4-800x933-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "gender": ["M"],
+      "price": 24,
+      "_createdAt": "2023-08-12T16:43:48Z"
+    },
+    {
+      "title": "Test",
+      "_createdAt": "2023-08-12T16:35:56Z",
+      "_type": "product",
+      "discount": 0,
+      "price": 112,
+      "_rev": "5vk3qHqY3EPjD02jSphWWW",
+      "_id": "42e2c548-cc1d-4f4c-a249-4e2d6552e741",
+      "_updatedAt": "2023-08-12T16:35:56Z",
+      "slug": { "current": "test", "_type": "slug" },
+      "images": [
+        {
+          "_type": "image",
+          "_key": "a8e235ad2cfd",
+          "asset": {
+            "_ref": "image-b79fedc67f7fef438cb91f8c7a81c287f76cba15-800x933-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "gender": ["F"],
+      "sizes": ["S", "M"]
+    },
+    {
+      "_updatedAt": "2023-08-12T16:45:32Z",
+      "gender": ["M", "F"],
+      "_createdAt": "2023-08-12T16:31:55Z",
+      "_rev": "egKJTqvXhtcduz2qdIapgw",
+      "_type": "product",
+      "_id": "5ed4a4e6-6254-432e-8dd7-929620c53db0",
+      "title": "OG's Hoodies",
+      "images": [
+        {
+          "_type": "image",
+          "_key": "80226ff597e9",
+          "asset": {
+            "_ref": "image-ddb8916bcf11107b4291444c95fd5b2384079353-800x933-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "sizes": ["M", "L", "XL", "XXL"],
+      "price": 49.99,
+      "discount": 0,
+      "slug": { "current": "og-s-hoodie", "_type": "slug" }
+    },
+    {
+      "gender": ["F"],
+      "discount": 0,
+      "_id": "60726314-4158-4524-80b4-940e59e8225e",
+      "title": "THE OG's - Crewneck",
+      "slug": { "current": "the-og-s-crewneck", "_type": "slug" },
+      "images": [
+        {
+          "_type": "image",
+          "_key": "230db9c878da",
+          "asset": {
+            "_ref": "image-d6baeb11b19c5cae149997051fdc4c0e5c9bc9f5-800x933-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_type": "image",
+          "_key": "99ae677371a6",
+          "asset": {
+            "_ref": "image-682457c57af5acc2f87d2e88828e9a990a4a4f48-800x933-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "sizes": ["M", "L", "XL"],
+      "price": 33,
+      "_createdAt": "2023-08-12T16:18:29Z",
+      "_rev": "5vk3qHqY3EPjD02jSpfzR7",
+      "_type": "product",
+      "_updatedAt": "2023-08-12T16:18:29Z"
+    },
+    {
+      "gender": ["M", "F"],
+      "sizes": ["L"],
+      "_createdAt": "2023-08-10T22:27:54Z",
+      "_rev": "5vk3qHqY3EPjD02jSggm5E",
+      "_type": "product",
+      "discount": 0,
+      "title": "CHANCLAS OGS x Mr. Fruit",
+      "_updatedAt": "2023-08-11T02:21:03Z",
+      "images": [
+        {
+          "_key": "fcff8620bf19",
+          "asset": {
+            "_type": "reference",
+            "_ref": "image-70dcc9f742a603815f0668682047b2f078a26cfc-800x933-jpg"
+          },
+          "_type": "image"
+        },
+        {
+          "_type": "image",
+          "_key": "5f242cce3a8e",
+          "asset": {
+            "_ref": "image-ddb8916bcf11107b4291444c95fd5b2384079353-800x933-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": 34.99,
+      "_id": "678e8beb-48d7-44c4-a753-b7b6d404a5ac",
+      "slug": { "current": "chanclas-ogs-x-mr-fruit", "_type": "slug" }
+    },
+    {
+      "gender": ["M"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "price": 26.99,
+      "_rev": "egKJTqvXhtcduz2qd5uqje",
+      "_type": "product",
+      "discount": 30,
+      "_id": "fe57872a-a746-4a3c-9a44-f62d3dff7a4f",
+      "images": [
+        {
+          "_key": "26ab44a5f16f",
+          "asset": {
+            "_ref": "image-aed48bae65078cba54d5be4c2c56f86c010407fd-800x933-jpg",
+            "_type": "reference"
+          },
+          "_type": "image"
+        },
+        {
+          "_type": "image",
+          "_key": "571b684ab854",
+          "asset": {
+            "_ref": "image-603e394eb64ad61cca0ef6e2925e8393d0cf081f-800x933-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_type": "image",
+          "_key": "53726fd3f37b",
+          "asset": {
+            "_ref": "image-f944468b24fbee15fdc03d109e4be4791203ac25-800x933-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "slug": { "current": "og-s-2-0-camiseta", "_type": "slug" },
+      "title": "OG's 2.0 - Camiseta",
+      "_updatedAt": "2023-08-11T02:19:49Z",
+      "_createdAt": "2023-08-11T02:19:49Z"
+    }
+  ],
+  "ms": 6
+}
