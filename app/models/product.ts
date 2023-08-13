@@ -29,7 +29,9 @@ const mapValues = (response: Result[], products: Product[]) => {
 export class ProductModel {
   static async getAllProducts() {
     const query = '*[_type == "product"]'
-    const response = await client.fetch<Result[]>(query)
+    // const response = await client.fetch<Result[]>(query)
+    const response = (await import("../../public/production.json")).result
+
     const products: Product[] = []
     mapValues(response, products)
     return products
