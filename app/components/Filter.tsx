@@ -1,4 +1,6 @@
 "use client"
+import { useRouter } from "next/router"
+import { useState, useEffect } from "react"
 
 export default function FilterBar() {
   const filter = {
@@ -27,6 +29,9 @@ export default function FilterBar() {
               type="checkbox"
               value={el.id}
               className="w-4 h-4 bg-gray-700"
+              onClick={() => {
+                console.log(document.getElementById(el.id).checked)
+              }}
             />
             <label
               htmlFor={el.id}
